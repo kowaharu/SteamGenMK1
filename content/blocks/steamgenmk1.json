@@ -1,0 +1,35 @@
+{ 
+	"type": "BurnerGenerator",
+	"name": "Steam Generator MK I",
+	"description": "An Upgrade version of Steam Generator",
+	"size": 2,
+	"hasPower": true,
+	"hasItem": true,
+	"hasLiquid": true,
+	"itemDuration": 60,
+	"powerProduction": 8,
+	"generateEffect": "generatespark",
+	"explodeEffect": "generatespark",
+	"randomlyExplode": false,
+	"consumes": {
+		"liquid": {
+			"liquid": "water",
+			"amount": 0.083,
+			"timePeriod": 60,
+					}
+				}
+	"requirements": [
+				copper/70
+				lead/50
+				graphite/40
+				silicon/45
+					],
+	"category": "power",
+	"research": "turbine-generator",
+}
+	
+			
+				
+					
+			
+				
